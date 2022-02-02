@@ -10,7 +10,8 @@
     grid-template-columns: repeat(22, minmax(50px, 102px));
     grid-template-rows: minmax(80px, auto);
     gap: 8px;
-    min-width: 100vw;
+    min-width: 90vw;
+    min-height: 25vw;
 }
 
 .item {
