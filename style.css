@@ -10,6 +10,7 @@
     grid-template-columns: repeat(22, minmax(50px, 102px));
     grid-template-rows: minmax(80px, auto);
     gap: 8px;
+    min-width: 100vw;
 }
 
 .item {
@@ -80,7 +81,4 @@
 
 .item110 {
     grid-column: 19 / 21;
-}
-img {
-    filter:grayscale(100%)
 }
